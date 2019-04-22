@@ -3,7 +3,7 @@ function isLoggedIn(){
 }
 function userLogout(){
   localStorage.removeItem("token");
-  localStorage.removeItem("name");
+  localStorage.removeItem("name");``
 }
 function saveUser({token, name}){
   localStorage.setItem("token", token);
